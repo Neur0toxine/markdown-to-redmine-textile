@@ -55,7 +55,7 @@ The repository includes a GitHub Actions workflow that:
 
 1. Installs dependencies with Yarn.
 2. Runs typecheck/build, unit tests, and Playwright e2e tests.
-3. Deploys `dist/` to the `gh-pages` branch on pushes to `main`.
+3. Deploys `dist/` to the `gh-pages` branch on pushes to `master`.
 
 In GitHub repository settings, configure Pages to serve from the `gh-pages` branch.
 
